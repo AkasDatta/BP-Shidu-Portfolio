@@ -1,11 +1,9 @@
+import coverImage from "../../../../assets/bgcover.avif";
 
 const Banner = () => {
     return (
         <div>
-            <h2>
-                jjjj
-
-            </h2>
+            <img src={coverImage} className="w-full object-cover h-80 mx-auto" alt="" />
         </div>
     );
 };
