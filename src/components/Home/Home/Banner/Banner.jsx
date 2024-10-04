@@ -1,3 +1,4 @@
+import { FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa";
 import profile from "../../../../assets/profile.jpg";
 
 const Banner = () => {
@@ -27,8 +28,16 @@ const Banner = () => {
                         <div>
                             <h2 className="text-3xl font-bold text-[#C4CFDE] py-4">Badhon Paul Shidu</h2>
                             <p className="font-semibold text-[#838994] text-lg">I am a Network Engineer</p>
-                            <div>
-                                hh
+                            <div className="flex gap-5 pt-12">
+                                <div className="p-3 bg-[#15171a] text-gray-300 rounded-lg hover:bg-black cursor-pointer">
+                                    <FaFacebook className="text-4xl"/>
+                                </div>
+                                <div className="p-3 bg-[#15171a] text-gray-300 rounded-lg hover:bg-black cursor-pointer">
+                                    <FaLinkedin className="text-4xl"/>
+                                </div>
+                                <div className="p-3 bg-[#15171a] text-gray-300 rounded-lg hover:bg-black cursor-pointer">
+                                    <FaYoutube className="text-4xl"/>
+                                </div>
                             </div>
                         </div>
                     </div>
