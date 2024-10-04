@@ -20,8 +20,8 @@ const Banner = () => {
                     marginTop: '-70px',
                 }}
                 >
-                <div className="bg-[#202327] mx-5 rounded-lg grid grid-cols-1 lg:grid-cols-2">
-                    <div className="flex flex-wrap gap-6 m-6 border-r">
+                <div className="bg-[#202327] mx-5 rounded-lg grid grid-cols-1 lg:grid-cols-2 shadow-xl">
+                    <div className="flex flex-wrap gap-6 m-6 lg:border-r border-black">
                         <div className="">
                             <img src={profile} alt="" className="border-4 border-gray-500 rounded-md"/>
                         </div>
@@ -41,15 +41,25 @@ const Banner = () => {
                             </div>
                         </div>
                     </div>
-                    <div>
-                        <div className="mx-5 my-0 md:my-5 lg:my-5">
-                            <div>
-                                <p className="font-semibold text-[#838994] text-lg py-2">Email</p>
+                    <div className="pt-5">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mx-5 my-0 mb-5 md:my-5 lg:my-5">
+                            <div className="pb-4">
+                                <p className="font-semibold text-[#838994] text-lg py-2">EMAIL</p>
                                 <h2 className="font-semibold text-[#C4CFDE] text-xl">bachon@gmail.com</h2>
                             </div>
                             <div>
-                                <p className="font-semibold text-[#838994] text-lg py-2">Email</p>
-                                <h2 className="font-semibold text-[#C4CFDE] text-xl">bachon@gmail.com</h2>
+                                <p className="font-semibold text-[#838994] text-lg py-2">PHONE</p>
+                                <h2 className="font-semibold text-[#C4CFDE] text-xl">+880 1223244556</h2>
+                            </div>
+                        </div>
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mx-5 my-0 mb-5 md:my-5 lg:my-5">
+                            <div className="pb-6">
+                                <p className="font-semibold text-[#838994] text-lg py-2">BIRTHDAY</p>
+                                <h2 className="font-semibold text-[#C4CFDE] text-xl">20 August</h2>
+                            </div>
+                            <div>
+                                <p className="font-semibold text-[#838994] text-lg py-2">LOCATION</p>
+                                <h2 className="font-semibold text-[#C4CFDE] text-xl">Dhaka, Bangladesh</h2>
                             </div>
                         </div>
                     </div>
