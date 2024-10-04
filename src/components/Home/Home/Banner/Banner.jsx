@@ -20,8 +20,8 @@ const Banner = () => {
                     marginTop: '-70px',
                 }}
                 >
-                <div className="bg-[#202327] mx-5 rounded-lg">
-                    <div className="flex gap-6 p-6">
+                <div className="bg-[#202327] mx-5 rounded-lg grid grid-cols-1 lg:grid-cols-2">
+                    <div className="flex flex-wrap gap-6 m-6 border-r">
                         <div className="">
                             <img src={profile} alt="" className="border-4 border-gray-500 rounded-md"/>
                         </div>
@@ -29,20 +29,29 @@ const Banner = () => {
                             <h2 className="text-3xl font-bold text-[#C4CFDE] py-4">Badhon Paul Shidu</h2>
                             <p className="font-semibold text-[#838994] text-lg">I am a Network Engineer</p>
                             <div className="flex gap-5 pt-12">
-                                <div className="p-3 bg-[#15171a] text-gray-300 rounded-lg hover:bg-black cursor-pointer">
+                                <div className="p-2 bg-[#15171a] text-gray-300 rounded-lg hover:bg-black cursor-pointer">
                                     <FaFacebook className="text-4xl"/>
                                 </div>
-                                <div className="p-3 bg-[#15171a] text-gray-300 rounded-lg hover:bg-black cursor-pointer">
+                                <div className="p-2 bg-[#15171a] text-gray-300 rounded-lg hover:bg-black cursor-pointer">
                                     <FaLinkedin className="text-4xl"/>
                                 </div>
-                                <div className="p-3 bg-[#15171a] text-gray-300 rounded-lg hover:bg-black cursor-pointer">
+                                <div className="p-2 bg-[#15171a] text-gray-300 rounded-lg hover:bg-black cursor-pointer">
                                     <FaYoutube className="text-4xl"/>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div>
-
+                        <div className="mx-5 my-0 md:my-5 lg:my-5">
+                            <div>
+                                <p className="font-semibold text-[#838994] text-lg py-2">Email</p>
+                                <h2 className="font-semibold text-[#C4CFDE] text-xl">bachon@gmail.com</h2>
+                            </div>
+                            <div>
+                                <p className="font-semibold text-[#838994] text-lg py-2">Email</p>
+                                <h2 className="font-semibold text-[#C4CFDE] text-xl">bachon@gmail.com</h2>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 </div>
