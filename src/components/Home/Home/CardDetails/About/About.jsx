@@ -26,6 +26,8 @@ const About = () => {
                             <p className="text-gray-500 font-semibold text-xl">Unlimited Revisions</p>
                         </div>
                     </div>
+
+                    <button className="text-[#ff0116] shadow-xl py-4 px-5 bg-[#171a1d]">DOWNLOAD MY CV</button>
                 </div>
             </div>
         </div>
