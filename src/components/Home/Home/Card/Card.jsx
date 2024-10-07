@@ -11,7 +11,12 @@ const Card = () => {
             </div>
 
             <div className="bg-[#202327] rounded-lg p-5 shadow-lg col-span-1 md:col-span-3 lg:col-span-5">
-                hh 
+                <div className="flex gap-4 flex-wrap">
+                    <button className="text-white border-blue-600 border bg-blue-700 hover:bg-blue-700 px-3 py-1 rounded-md ">CCNA</button>
+                    <button className="text-white border-blue-600 border bg-gray-900 hover:bg-blue-700 px-3 py-1 rounded-md ">MTCNA & MTCRE</button>
+                    <button className="text-white border-blue-600 border bg-gray-900 hover:bg-blue-700 px-3 py-1 rounded-md ">FTTX</button>
+                    <button className="text-white border-blue-600 border bg-gray-900 hover:bg-blue-700 px-3 py-1 rounded-md ">CCTV</button>
+                </div>
             </div>
         </div>
     );
