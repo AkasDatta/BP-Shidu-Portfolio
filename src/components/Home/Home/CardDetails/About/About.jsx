@@ -1,6 +1,17 @@
 import aboutImage from "../../../../../assets/aboutImage.jpeg"
 import { IoMdCheckmark } from "react-icons/io";
+import resumePdf from '../../../../../assets/sample_cv.pdf';
+
+
 const About = () => {
+    const handleDownload = () => {
+        const link = document.createElement('a');
+        link.href = resumePdf;
+        link.download = 'Badhon_Paul.pdf';
+        link.click();
+      };
+
+
     return (
         <div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-7 gap-10">
@@ -27,7 +38,7 @@ const About = () => {
                         </div>
                     </div>
 
-                    <button className="text-[#ff0116] shadow-xl py-4 px-5 bg-[#171a1d]">DOWNLOAD MY CV</button>
+                    <button onClick={handleDownload}  className="text-[#ff0116] shadow-xl py-5 px-6 bg-[#171a1d]">DOWNLOAD MY CV</button>
                 </div>
             </div>
         </div>
