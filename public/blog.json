@@ -38,6 +38,134 @@
       "readTime": "9 min",
       "title": "Enhancing Security in CCNA",
       "description": "Explore essential security protocols, practices, and tools to safeguard network infrastructure from potential threats."
-    }
-  ]
-  
+    },
+        {
+          "id": 6,
+          "image": "https://plus.unsplash.com/premium_photo-1682145723071-33e2207f4eb1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D",
+          "name": "CCNA",
+          "readTime": "6 min",
+          "title": "Mastering Routing and Switching in CCNA",
+          "description": "A deep dive into routing and switching technologies covered in the CCNA certification."
+        },
+        {
+          "id": 7,
+          "image": "https://plus.unsplash.com/premium_photo-1675024775153-5720ec149542?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D",
+          "name": "CCNP",
+          "readTime": "8 min",
+          "title": "Advancing Your Networking Career with CCNP",
+          "description": "An in-depth look at Cisco Certified Network Professional (CCNP) certification and how it builds upon CCNA."
+        },
+        {
+          "id": 8,
+          "image": "https://plus.unsplash.com/premium_photo-1661644823131-7de42f3c04ab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "name": "CCNA",
+          "readTime": "7 min",
+          "title": "CCNA Lab Setup Guide",
+          "description": "Step-by-step instructions to set up a home lab for hands-on practice with CCNA topics."
+        },
+        {
+          "id": 9,
+          "image": "https://images.unsplash.com/photo-1674027444485-cec3da58eef4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bmV0d29ya3xlbnwwfHwwfHx8MA%3D%3D",
+          "name": "MTCNA & MTCRE",
+          "readTime": "6 min",
+          "title": "Starting with MTCNA Certification",
+          "description": "A beginner's guide to MikroTik Certified Network Associate (MTCNA) certification."
+        },
+        {
+          "id": 10,
+          "image": "https://plus.unsplash.com/premium_photo-1682145723071-33e2207f4eb1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "name": "FTTX",
+          "readTime": "8 min",
+          "title": "Deploying Fiber to the Home (FTTH) Networks",
+          "description": "A comprehensive guide to the installation and benefits of Fiber to the Home (FTTH) networks."
+        },
+        {
+          "id": 11,
+          "image": "https://plus.unsplash.com/premium_photo-1675024346167-e5fd43181f16?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fHw%3D",
+          "name": "CCTV",
+          "readTime": "5 min",
+          "title": "Wireless CCTV Systems: Benefits and Drawbacks",
+          "description": "Exploring the pros and cons of wireless CCTV solutions for residential and commercial use."
+        },
+        {
+          "id": 12,
+          "image": "https://plus.unsplash.com/premium_photo-1675024346167-e5fd43181f16?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fHw%3D",
+          "name": "CCNA",
+          "readTime": "6 min",
+          "title": "CCNA Security: Protecting Your Network",
+          "description": "Key strategies and tools for implementing security in CCNA-certified networks."
+        },
+        {
+          "id": 13,
+          "image": "https://plus.unsplash.com/premium_photo-1675024346167-e5fd43181f16?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fHw%3D",
+          "name": "CCNP",
+          "readTime": "7 min",
+          "title": "CCNP: Understanding Enterprise Networking",
+          "description": "An introduction to enterprise networking concepts for CCNP candidates."
+        },
+        {
+          "id": 14,
+          "image": "https://plus.unsplash.com/premium_photo-1675024346167-e5fd43181f16?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fHw%3D",
+          "name": "FTTX",
+          "readTime": "6 min",
+          "title": "Scaling FTTX Networks for Future Needs",
+          "description": "How Fiber to the X technology is evolving to meet future bandwidth demands."
+        },
+        {
+          "id": 15,
+          "image": "https://plus.unsplash.com/premium_photo-1675024346167-e5fd43181f16?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fHw%3D",
+          "name": "MTCNA & MTCRE",
+          "readTime": "9 min",
+          "title": "Troubleshooting with MTCNA Tools",
+          "description": "Learn about the troubleshooting tools and techniques covered in the MTCNA certification."
+        },
+        {
+          "id": 16,
+          "image": "https://plus.unsplash.com/premium_photo-1675024346167-e5fd43181f16?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fHw%3D",
+          "name": "CCNP",
+          "readTime": "8 min",
+          "title": "CCNP vs. CCNA: What’s the Difference?",
+          "description": "A comparison of Cisco’s CCNA and CCNP certifications and which one is right for you."
+        },
+        {
+          "id": 17,
+          "image": "https://plus.unsplash.com/premium_photo-1675024346167-e5fd43181f16?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fHw%3D",
+          "name": "FTTX",
+          "readTime": "5 min",
+          "title": "FTTX Installation Best Practices",
+          "description": "Explore best practices for deploying and maintaining FTTX networks."
+        },
+        {
+          "id": 18,
+          "image": "https://plus.unsplash.com/premium_photo-1675024346167-e5fd43181f16?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fHw%3D",
+          "name": "CCTV",
+          "readTime": "6 min",
+          "title": "AI-Powered CCTV Systems",
+          "description": "How artificial intelligence is transforming traditional CCTV surveillance systems."
+        },
+        {
+          "id": 19,
+          "image": "https://plus.unsplash.com/premium_photo-1675024346167-e5fd43181f16?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fHw%3D",
+          "name": "MTCNA & MTCRE",
+          "readTime": "7 min",
+          "title": "MTCNA Network Security Essentials",
+          "description": "A guide to network security principles in MikroTik’s MTCNA certification."
+        },
+        {
+          "id": 20,
+          "image": "https://plus.unsplash.com/premium_photo-1675024346167-e5fd43181f16?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fHw%3D",
+          "name": "CCNA",
+          "readTime": "6 min",
+          "title": "CCNA Wireless Fundamentals",
+          "description": "An introduction to wireless networking concepts and technologies in CCNA certification."
+        },
+        {
+          "id": 21,
+          "image": "https://plus.unsplash.com/premium_photo-1675024346167-e5fd43181f16?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fHw%3D",
+          "name": "CCTV",
+          "readTime": "8 min",
+          "title": "Building a Smart CCTV Network",
+          "description": "How to design and implement smart CCTV systems for enhanced security."
+        }
+      ]
+      
