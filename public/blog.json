@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "image": "https://example.com/image1.jpg",
+      "name": "CCNA",
+      "readTime": "6 min",
+      "title": "Introduction to CCNA Certification",
+      "description": "Learn the basics of the Cisco Certified Network Associate (CCNA) certification and how it can boost your networking career."
+    },
+    {
+      "id": 2,
+      "image": "https://example.com/image2.jpg",
+      "name": "MTCNA & MTCRE",
+      "readTime": "8 min",
+      "title": "MikroTik Certifications: MTCNA and MTCRE",
+      "description": "A comprehensive guide to MikroTik Certified Network Associate (MTCNA) and MikroTik Certified Routing Engineer (MTCRE) certifications."
+    },
+    {
+      "id": 3,
+      "image": "https://example.com/image3.jpg",
+      "name": "FTTX",
+      "readTime": "7 min",
+      "title": "Understanding FTTX Networks",
+      "description": "An overview of Fiber to the X (FTTX) technology, its applications, and benefits in modern telecommunications."
+    },
+    {
+      "id": 4,
+      "image": "https://example.com/image4.jpg",
+      "name": "CCTV",
+      "readTime": "5 min",
+      "title": "CCTV Surveillance Systems: Basics and Applications",
+      "description": "A detailed guide on how CCTV systems work, their components, and their importance in security and surveillance."
+    },
+    {
+      "id": 5,
+      "image": "https://example.com/image5.jpg",
+      "name": "Network Security",
+      "readTime": "9 min",
+      "title": "Enhancing Security in Networking",
+      "description": "Explore essential security protocols, practices, and tools to safeguard network infrastructure from potential threats."
+    }
+  ]
+  
