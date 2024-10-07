@@ -2,10 +2,12 @@
     {
       "id": 1,
       "image": "https://images.unsplash.com/photo-1674027444485-cec3da58eef4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bmV0d29ya3xlbnwwfHwwfHx8MA%3D%3D",
+      "image2": "https://images.unsplash.com/photo-1674027444485-cec3da58eef4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bmV0d29ya3xlbnwwfHwwfHx8MA%3D%3D",
       "name": "CCNA",
+      "date": "August 12, 2024",
       "readTime": "6 min",
       "title": "Introduction to CCNA Certification",
-      "description": "Learn the basics of the Cisco Certified Network Associate (CCNA) certification and how it can boost your networking career."
+      "description": "Learn the basics of the Cisco Certified Network Associate (CCNA) certification and how it can boost your networking career. Explore the fundamental concepts of the Cisco Certified Network Associate (CCNA) certification, designed to lay the foundation for a successful networking career. This certification covers essential topics such as IP connectivity, network access, automation, and security fundamentals, equipping you with the skills needed to excel in the IT industry. Whether you're just starting in networking or looking to validate your skills, the CCNA is a powerful stepping stone towards becoming a certified network professional, opening doors to numerous job opportunities and career growth in the field of networking and IT infrastructure."
     },
     {
       "id": 2,
@@ -13,7 +15,7 @@
       "name": "MTCNA & MTCRE",
       "readTime": "8 min",
       "title": "MikroTik Certifications: MTCNA and MTCRE",
-      "description": "A comprehensive guide to MikroTik Certified Network Associate (MTCNA) and MikroTik Certified Routing Engineer (MTCRE) certifications."
+      "description": "A comprehensive guide to MikroTik Certified Network Associate (MTCNA) and MikroTik Certified Routing Engineer (MTCRE) certifications. Delve into a comprehensive guide on the MikroTik Certified Network Associate (MTCNA) and MikroTik Certified Routing Engineer (MTCRE) certifications. This guide provides an in-depth overview of both certifications, highlighting their importance in the networking field. The MTCNA certification introduces you to essential MikroTik concepts, router configuration, and network management skills, laying a solid foundation for network professionals. Building on this knowledge, the MTCRE certification focuses on advanced routing principles and techniques, empowering you to design, implement, and troubleshoot complex networks using MikroTik equipment. By pursuing these certifications, you'll enhance your technical proficiency and increase your career prospects in the ever-evolving landscape of network engineering."
     },
     {
       "id": 3,
