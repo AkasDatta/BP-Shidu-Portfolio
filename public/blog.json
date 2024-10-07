@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "image": "https://example.com/image1.jpg",
+      "image": "https://images.unsplash.com/photo-1674027444485-cec3da58eef4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bmV0d29ya3xlbnwwfHwwfHx8MA%3D%3D",
       "name": "CCNA",
       "readTime": "6 min",
       "title": "Introduction to CCNA Certification",
@@ -9,7 +9,7 @@
     },
     {
       "id": 2,
-      "image": "https://example.com/image2.jpg",
+      "image": "https://plus.unsplash.com/premium_photo-1675024775153-5720ec149542?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D",
       "name": "MTCNA & MTCRE",
       "readTime": "8 min",
       "title": "MikroTik Certifications: MTCNA and MTCRE",
@@ -17,7 +17,7 @@
     },
     {
       "id": 3,
-      "image": "https://example.com/image3.jpg",
+      "image": "https://plus.unsplash.com/premium_photo-1675024346167-e5fd43181f16?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fHw%3D",
       "name": "FTTX",
       "readTime": "7 min",
       "title": "Understanding FTTX Networks",
@@ -25,7 +25,7 @@
     },
     {
       "id": 4,
-      "image": "https://example.com/image4.jpg",
+      "image": "https://plus.unsplash.com/premium_photo-1682145723071-33e2207f4eb1?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "name": "CCTV",
       "readTime": "5 min",
       "title": "CCTV Surveillance Systems: Basics and Applications",
@@ -33,10 +33,10 @@
     },
     {
       "id": 5,
-      "image": "https://example.com/image5.jpg",
-      "name": "Network Security",
+      "image": "https://plus.unsplash.com/premium_photo-1661644823131-7de42f3c04ab?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "name": "CCNA",
       "readTime": "9 min",
-      "title": "Enhancing Security in Networking",
+      "title": "Enhancing Security in CCNA",
       "description": "Explore essential security protocols, practices, and tools to safeguard network infrastructure from potential threats."
     }
   ]

@@ -1,40 +1,73 @@
+import { useState, useEffect } from "react";
+import { MdOutlineWatchLater } from "react-icons/md";
 
+// Assuming the JSON file is stored in the public folder or imported directly.
 const Blog = () => {
+    const [selectedCategory, setSelectedCategory] = useState("CCNA"); // Default category is "CCNA"
+    const [blogs, setBlogs] = useState([]);
+
+    // Fetching data from blog.json
+    useEffect(() => {
+        fetch('/public/blog.json') // Update with the correct path
+            .then(response => response.json())
+            .then(data => setBlogs(data))
+            .catch(error => console.error("Error fetching blog data:", error));
+    }, []);
+
+    // Filter blogs based on selected category
+    const filteredBlogs = blogs.filter(blog => blog.name === selectedCategory);
+
     return (
         <div>
-             <div className="flex gap-4 flex-wrap">
-                <button className="text-white border-blue-600 border bg-blue-700 hover:bg-blue-700 px-3 py-1 rounded-md ">CCNA</button>
-                <button className="text-white border-blue-600 border bg-gray-900 hover:bg-blue-700 px-3 py-1 rounded-md ">MTCNA & MTCRE</button>
-                <button className="text-white border-blue-600 border bg-gray-900 hover:bg-blue-700 px-3 py-1 rounded-md ">FTTX</button>
-                <button className="text-white border-blue-600 border bg-gray-900 hover:bg-blue-700 px-3 py-1 rounded-md ">CCTV</button>
+            <div className="flex gap-4 flex-wrap">
+                <button
+                    className={`text-white border-blue-600 border px-3 py-1 rounded-md ${selectedCategory === "CCNA" ? "bg-blue-700" : "bg-gray-900"}`}
+                    onClick={() => setSelectedCategory("CCNA")}
+                >
+                    CCNA
+                </button>
+                <button
+                    className={`text-white border-blue-600 border px-3 py-1 rounded-md ${selectedCategory === "MTCNA & MTCRE" ? "bg-blue-700" : "bg-gray-900"}`}
+                    onClick={() => setSelectedCategory("MTCNA & MTCRE")}
+                >
+                    MTCNA & MTCRE
+                </button>
+                <button
+                    className={`text-white border-blue-600 border px-3 py-1 rounded-md ${selectedCategory === "FTTX" ? "bg-blue-700" : "bg-gray-900"}`}
+                    onClick={() => setSelectedCategory("FTTX")}
+                >
+                    FTTX
+                </button>
+                <button
+                    className={`text-white border-blue-600 border px-3 py-1 rounded-md ${selectedCategory === "CCTV" ? "bg-blue-700" : "bg-gray-900"}`}
+                    onClick={() => setSelectedCategory("CCTV")}
+                >
+                    CCTV
+                </button>
             </div>
-            <div className="mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                <a href="#" className="group relative block overflow-hidden rounded-2xl">
-                <img
-                    src="https://images.unsplash.com/photo-1599481238640-4c1288750d7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2664&q=80"
-                    alt=""
-                    className="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
-                />
 
-                <div className="relative p-6">
-                   <div className="flex justify-between">
-                        <p className="text-[#FF014F] font-bold">CCNA</p>
-                        <p className="text-gray-300 font-bold">4 min read</p>
-                   </div>
-
-                    <h3 className="mt-4 text-lg font-medium text-gray-900">Robot Toy</h3>
-
-                    <p className="mt-1.5 text-sm text-gray-700">$14.99</p>
-
-                    <form className="mt-4">
-                    <button
-                        className="block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105"
-                    >
-                        Add to Cart
-                    </button>
-                    </form>
-                </div>
-                </a>
+            <div className="mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {filteredBlogs.map(blog => (
+                    <a key={blog.id} href="#" className=" rounded-2xl bg-[#1a1d20] duration-500 hover:bg-[#121416] p-6">
+                        <div className="h-48 sm:h-56 w-full overflow-hidden rounded-2xl">
+                            <img
+                                src={blog.image}
+                                alt={blog.title}
+                                className="h-full w-full object-cover transform transition-transform duration-300 hover:scale-105"
+                            />
+                        </div>
+                        
+                        <div className="relative py-6">
+                            <div className="flex justify-between items-center">
+                                <p className="text-[#FF014F] font-bold">{blog.name}</p>
+                                <p className="text-gray-400 font-bold flex gap-1 items-center">
+                                    <MdOutlineWatchLater /> {blog.readTime} read
+                                </p>
+                            </div>
+                            <h2 className="text-gray-400 font-semibold text-3xl py-4 hover:text-[#FF014F] duration-500">{blog.title}</h2>
+                        </div>
+                    </a>
+                ))}
             </div>
         </div>
     );
