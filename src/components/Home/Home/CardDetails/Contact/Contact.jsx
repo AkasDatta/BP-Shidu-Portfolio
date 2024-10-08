@@ -24,7 +24,7 @@ const Contact = () => {
                     <form className="mx-auto bg-[#212428] p-5 rounded-xl shadow-2xl">
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 mb-5">
                         <div>
-                            <label for="name" className="block mb-3 text-sm text-gray-300">YOUR NAME</label>
+                            <label for="text" className="block mb-3 text-sm text-gray-300">YOUR NAME</label>
                             <input type="email" id="email" className="shadow-sm bg-gray-800 border border-gray-600 text-white text-sm rounded-lg focus:ring-red-500 focus:border-red-500 block w-full p-2.5" placeholder="Name" required />
                         </div>
                         <div>
@@ -36,7 +36,15 @@ const Contact = () => {
                         <label for="email" className="block mb-3 text-sm text-gray-300">EMAIL</label>
                         <input type="email" id="email" className="shadow-sm bg-gray-800 border border-gray-600 text-white text-sm rounded-lg focus:ring-red-500 focus:border-red-500 block w-full p-2.5" placeholder="example@email.com" required />
                     </div>
-                    <button type="submit" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Register new account</button>
+                    <div className="mb-5">
+                        <label for="text" className="block mb-3 text-sm text-gray-300">SUBJECT</label>
+                        <input type="email" id="email" className="shadow-sm bg-gray-800 border border-gray-600 text-white text-sm rounded-lg focus:ring-red-500 focus:border-red-500 block w-full p-2.5" placeholder="" required />
+                    </div>
+                    <div className="mb-5">
+                        <label for="message" className="block mb-3 text-sm text-gray-300">YOUR MESSAGE</label>
+                        <textarea id="message" rows="11" className="shadow-sm bg-gray-800 border border-gray-600 text-white text-sm rounded-lg focus:ring-red-500 focus:border-red-500 block w-full p-2.5" placeholder="Write your thoughts here..."></textarea>
+                    </div>
+                    <button type="submit" className="text-white bg-[#FF014F] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Register new account</button>
                     </form>
 
                 </div>
