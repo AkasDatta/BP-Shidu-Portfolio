@@ -15,7 +15,7 @@ const Card = () => {
                     onClick={() => setActiveTab("Blog")}
                     className={`${
                         activeTab === "Blog" ? 'bg-[#FF014F]' : 'hover:bg-[#FF014F]'
-                    }  text-[#C4CFDE] w-full my-2 md:my-0 lg:my-0 md:py-9 lg:py-9 py-3 rounded-lg font-semibold text-xl`}
+                    }  text-[#C4CFDE] w-full my-2 md:my-0 lg:my-0 md:py-9 lg:py-9 py-3 rounded-lg font-semibold text-xl duration-500`}
                 >
                     Blog
                 </button>
@@ -23,7 +23,7 @@ const Card = () => {
                     onClick={() => setActiveTab("About")}
                     className={`${
                         activeTab === "About" ? 'bg-[#FF014F]' : 'hover:bg-[#FF014F]'
-                    } text-[#C4CFDE] w-full my-2 md:my-0 lg:my-0 md:py-9 lg:py-9 py-3 rounded-lg font-semibold text-xl`}
+                    } text-[#C4CFDE] w-full my-2 md:my-0 lg:my-0 md:py-9 lg:py-9 py-3 rounded-lg font-semibold text-xl duration-500`}
                 >
                     About
                 </button>
@@ -31,7 +31,7 @@ const Card = () => {
                     onClick={() => setActiveTab("Work")}
                     className={`${
                         activeTab === "Work" ? 'bg-[#FF014F]' : 'hover:bg-[#FF014F]'
-                    } text-[#C4CFDE] w-full my-2 md:my-0 lg:my-0 md:py-9 lg:py-9 py-3 rounded-lg font-semibold text-xl`}
+                    } text-[#C4CFDE] w-full my-2 md:my-0 lg:my-0 md:py-9 lg:py-9 py-3 rounded-lg font-semibold text-xl duration-500`}
                 >
                     Work
                 </button>
@@ -39,7 +39,7 @@ const Card = () => {
                     onClick={() => setActiveTab("Resume")}
                     className={`${
                         activeTab === "Resume" ? 'bg-[#FF014F]' : 'hover:bg-[#FF014F]'
-                    } text-[#C4CFDE] w-full my-2 md:my-0 lg:my-0 md:py-9 lg:py-9 py-3 rounded-lg font-semibold text-xl`}
+                    } text-[#C4CFDE] w-full my-2 md:my-0 lg:my-0 md:py-9 lg:py-9 py-3 rounded-lg font-semibold text-xl duration-500`}
                 >
                     Resume
                 </button>
@@ -47,7 +47,7 @@ const Card = () => {
                     onClick={() => setActiveTab("Contact")}
                     className={`${
                         activeTab === "Contact" ? 'bg-[#FF014F]' : 'hover:bg-[#FF014F]'
-                    } text-[#C4CFDE] w-full my-2 md:my-0 lg:my-0 md:py-9 lg:py-9 py-3 rounded-lg font-semibold text-xl`}
+                    } text-[#C4CFDE] w-full my-2 md:my-0 lg:my-0 md:py-9 lg:py-9 py-3 rounded-lg font-semibold text-xl duration-500`}
                 >
                     Contact
                 </button>
