@@ -10,7 +10,7 @@ const Card = () => {
 
     return (
         <div className="mx-10 my-12 grid grid-cols-1 md:grid-cols-4 lg:grid-cols-6 gap-6">
-            <div className="bg-[#202327] rounded-lg p-5 shadow-lg flex-col gap-6">
+            <div className="bg-[#202327] rounded-lg p-5 shadow-2xl flex-col gap-6">
                 <button
                     onClick={() => setActiveTab("Blog")}
                     className={`${
