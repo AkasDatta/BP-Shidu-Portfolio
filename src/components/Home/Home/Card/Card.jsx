@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import About from "../CardDetails/About/About";
 import Blog from "../CardDetails/Blog/Blog";
+import Resume from '../CardDetails/Resume/Resume';
 
 const Card = () => {
     const [activeTab, setActiveTab] = useState("Blog"); // Default is "Blog"
@@ -20,25 +21,31 @@ const Card = () => {
                     onClick={() => setActiveTab("About")}
                     className={`${
                         activeTab === "About" ? 'bg-[#FF014F]' : 'hover:bg-[#FF014F]'
-                    } text-[#C4CFDE] w-full my-2 md:my-0 lg:my-0 md:py-9 lg:py-9 py-3 rounded-lg font-semibold text-xl`}
+                    } text-[#C4CFDE] w-full md:py-9 lg:py-9 py-3 rounded-lg font-semibold text-xl`}
                 >
                     About
                 </button>
                 <button
                     onClick={() => setActiveTab("Work")}
-                    className="hover:bg-[#FF014F] text-[#C4CFDE] w-full my-2 md:my-0 lg:my-0 md:py-9 lg:py-9 py-3 rounded-lg font-semibold text-xl"
+                    className={`${
+                        activeTab === "Work" ? 'bg-[#FF014F]' : 'hover:bg-[#FF014F]'
+                    } text-[#C4CFDE] w-full my-2 md:my-0 lg:my-0 md:py-9 lg:py-9 py-3 rounded-lg font-semibold text-xl`}
                 >
                     Work
                 </button>
                 <button
                     onClick={() => setActiveTab("Resume")}
-                    className="hover:bg-[#FF014F] text-[#C4CFDE] w-full my-2 md:my-0 lg:my-0 md:py-9 lg:py-9 py-3 rounded-lg font-semibold text-xl"
+                    className={`${
+                        activeTab === "Resume" ? 'bg-[#FF014F]' : 'hover:bg-[#FF014F]'
+                    } text-[#C4CFDE] w-full my-2 md:my-0 lg:my-0 md:py-9 lg:py-9 py-3 rounded-lg font-semibold text-xl`}
                 >
                     Resume
                 </button>
                 <button
                     onClick={() => setActiveTab("Contact")}
-                    className="hover:bg-[#FF014F] text-[#C4CFDE] w-full my-2 md:my-0 lg:my-0 md:py-9 lg:py-9 py-3 rounded-lg font-semibold text-xl"
+                    className={`${
+                        activeTab === "Contact" ? 'bg-[#FF014F]' : 'hover:bg-[#FF014F]'
+                    } text-[#C4CFDE] w-full my-2 md:my-0 lg:my-0 md:py-9 lg:py-9 py-3 rounded-lg font-semibold text-xl`}
                 >
                     Contact
                 </button>
@@ -47,6 +54,7 @@ const Card = () => {
             <div className="bg-[#202327] rounded-lg p-5 shadow-lg col-span-1 md:col-span-3 lg:col-span-5">
                 {activeTab === "Blog" && <Blog />}
                 {activeTab === "About" && <About />}
+                {activeTab === "Resume" && <Resume />}
                 {/* Add other components similarly when needed */}
             </div>
         </div>
