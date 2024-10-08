@@ -15,7 +15,7 @@ const Card = () => {
                     onClick={() => setActiveTab("Blog")}
                     className={`${
                         activeTab === "Blog" ? 'bg-[#FF014F]' : 'hover:bg-[#FF014F]'
-                    } text-[#C4CFDE] w-full md:py-9 lg:py-9 py-3 rounded-lg font-semibold text-xl`}
+                    }  text-[#C4CFDE] w-full my-2 md:my-0 lg:my-0 md:py-9 lg:py-9 py-3 rounded-lg font-semibold text-xl`}
                 >
                     Blog
                 </button>
@@ -23,7 +23,7 @@ const Card = () => {
                     onClick={() => setActiveTab("About")}
                     className={`${
                         activeTab === "About" ? 'bg-[#FF014F]' : 'hover:bg-[#FF014F]'
-                    } text-[#C4CFDE] w-full md:py-9 lg:py-9 py-3 rounded-lg font-semibold text-xl`}
+                    } text-[#C4CFDE] w-full my-2 md:my-0 lg:my-0 md:py-9 lg:py-9 py-3 rounded-lg font-semibold text-xl`}
                 >
                     About
                 </button>
