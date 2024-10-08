@@ -2,6 +2,8 @@ import { useState } from 'react';
 import About from "../CardDetails/About/About";
 import Blog from "../CardDetails/Blog/Blog";
 import Resume from '../CardDetails/Resume/Resume';
+import Contact from '../CardDetails/Contact/Contact';
+import Work from '../CardDetails/Work/Work';
 
 const Card = () => {
     const [activeTab, setActiveTab] = useState("Blog"); // Default is "Blog"
@@ -54,8 +56,9 @@ const Card = () => {
             <div className="bg-[#202327] rounded-lg p-5 shadow-lg col-span-1 md:col-span-3 lg:col-span-5">
                 {activeTab === "Blog" && <Blog />}
                 {activeTab === "About" && <About />}
+                {activeTab === "Work" && <Work />}
                 {activeTab === "Resume" && <Resume />}
-                {/* Add other components similarly when needed */}
+                {activeTab === "Contact" && <Contact />}
             </div>
         </div>
     );
