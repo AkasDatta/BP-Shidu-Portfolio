@@ -15,9 +15,9 @@ const Contact = () => {
                     <p className="text-gray-400 text-xl pb-6">Email: <span className="text-gray-300 hover:text-[#ff014e] duration-500">badhonpaul@email.com</span></p>
                     <p className="text-gray-400 text-xl pb-6">FIND WITH ME</p>
                     <div className="flex flex-wrap gap-8">
-                        <button className="bg-[#181A1E] border border-[#181A1E] hover:border-[#ff014e] duration-500 p-3 shadow-2xl "><CiTwitter className="text-3xl text-white hover:text-[#ff014e] duration-500" /></button>
-                        <button className="bg-[#181A1E] border border-[#181A1E] hover:border-[#ff014e] duration-500 p-3 shadow-2xl "><FiFacebook className="text-3xl text-white hover:text-[#ff014e] duration-500" /></button>
-                        <button className="bg-[#181A1E] border border-[#181A1E] hover:border-[#ff014e] duration-500 p-3 shadow-2xl "><FiLinkedin className="text-3xl text-white hover:text-[#ff014e] duration-500" /></button>
+                        <a href="#" className="bg-[#181A1E] border border-[#181A1E] hover:border-[#ff014e] duration-500 p-3 shadow-2xl "><CiTwitter className="text-3xl text-white hover:text-[#ff014e] duration-500" /></a>
+                        <a href="#" className="bg-[#181A1E] border border-[#181A1E] hover:border-[#ff014e] duration-500 p-3 shadow-2xl "><FiFacebook className="text-3xl text-white hover:text-[#ff014e] duration-500" /></a>
+                        <a href="#" className="bg-[#181A1E] border border-[#181A1E] hover:border-[#ff014e] duration-500 p-3 shadow-2xl "><FiLinkedin className="text-3xl text-white hover:text-[#ff014e] duration-500" /></a>
                     </div>
                 </div>
                 <div className="col-span-1 lg:col-span-4">
