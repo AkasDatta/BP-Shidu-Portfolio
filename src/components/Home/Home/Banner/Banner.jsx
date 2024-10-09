@@ -27,7 +27,7 @@ const Banner = () => {
                         </div>
                         <div>
                             <h2 className="text-4xl font-bold text-[#C4CFDE] py-4">Badhon Paul Shidu</h2>
-                            <p className="font-semibold text-[#838994] text-xl">I am a Network Engineer</p>
+                            <p className="font-semibold text-[#838994] text-xl">I'm a Junior Network Support Engineer</p>
                             <div className="flex gap-5 pt-12">
                                 <a href="#" className="p-2 bg-[#15171a] duration-500 text-gray-300 hover:text-blue-400 rounded-lg hover:bg-black cursor-pointer">
                                     <FaFacebook className="text-4xl"/>
