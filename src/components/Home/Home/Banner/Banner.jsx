@@ -29,10 +29,10 @@ const Banner = () => {
                             <h2 className="text-4xl font-bold text-[#C4CFDE] py-4">Badhon Paul Shidu</h2>
                             <p className="font-semibold text-[#838994] text-xl">I'm a Junior Network Support Engineer</p>
                             <div className="flex gap-5 pt-12">
-                                <a href="#" className="p-2 bg-[#15171a] duration-500 text-gray-300 hover:text-blue-400 rounded-lg hover:bg-black cursor-pointer">
+                                <a href="https://www.facebook.com/badhonpaul.shidu" className="p-2 bg-[#15171a] duration-500 text-gray-300 hover:text-blue-400 rounded-lg hover:bg-black cursor-pointer">
                                     <FaFacebook className="text-4xl"/>
                                 </a>
-                                <a href="#" className="p-2 bg-[#15171a] duration-500 hover:text-blue-500 text-gray-300 rounded-lg hover:bg-black cursor-pointer">
+                                <a href="https://www.linkedin.com/in/badhon-paul-shidu-076167266/" className="p-2 bg-[#15171a] duration-500 hover:text-blue-500 text-gray-300 rounded-lg hover:bg-black cursor-pointer">
                                     <FaLinkedin className="text-4xl"/>
                                 </a>
                                 <a href="#" className="p-2 bg-[#15171a] duration-500 text-gray-300 hover:text-[#ff0101] rounded-lg hover:bg-black cursor-pointer">
