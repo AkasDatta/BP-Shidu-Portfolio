@@ -22,7 +22,7 @@ const Banner = () => {
                 >
                 <div className="bg-[#202327] mx-5 rounded-lg grid grid-cols-1 lg:grid-cols-2 shadow-xl">
                     <div className="flex flex-wrap gap-6 m-6 lg:border-r border-black">
-                        <div className="">
+                        <div>
                             <img src={profile} alt="" className="border-4 border-gray-500 rounded-md"/>
                         </div>
                         <div>
