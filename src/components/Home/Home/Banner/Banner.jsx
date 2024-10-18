@@ -13,7 +13,6 @@ const Banner = () => {
                     height: '300px',
                 }}
                 ></div>
-
                 <div
                 className="card mx-4 mx-md-5 shadow-5-strong"
                 style={{
