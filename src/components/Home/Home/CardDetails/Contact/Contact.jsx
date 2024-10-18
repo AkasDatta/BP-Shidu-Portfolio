@@ -1,8 +1,27 @@
 import { CiTwitter } from "react-icons/ci";
 import contactImage from "../../../../../assets/contact.jpg";
 import { FiFacebook, FiLinkedin } from "react-icons/fi";
+import { useRef } from "react";
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+    const form = useRef();
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs
+          .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, {
+            publicKey: 'a525-xiE9RhmrtSeJ',
+          })
+          .then(
+            () => {
+              console.log('SUCCESS!');
+            },
+            (error) => {
+              console.log('FAILED...', error.text);
+            },
+          );
+      };
     return (
         <div>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-7 gap-10">
@@ -44,7 +63,7 @@ const Contact = () => {
                         <label for="message" className="block mb-3 text-sm text-gray-300">YOUR MESSAGE</label>
                         <textarea name="message" id="message" rows="11" className="shadow-sm bg-gray-800 border border-gray-600 text-white text-sm rounded-lg focus:ring-red-500 focus:border-red-500 block w-full p-2.5" placeholder="Write your thoughts here..."></textarea>
                     </div>
-                    <button type="submit" value="sendemai" className="text-white bg-[#FF014F] hover:bg-[#ce184e] duration-500 focus:ring-4 focus:outline-none focus:ring-[#9e123c] font-medium rounded-lg text-sm mx-auto w-full py-2.5 text-center">SEND MESSAGE</button>
+                    <button type="submit" value="" className="text-white bg-[#FF014F] hover:bg-[#ce184e] duration-500 focus:ring-4 focus:outline-none focus:ring-[#9e123c] font-medium rounded-lg text-sm mx-auto w-full py-2.5 text-center">SEND MESSAGE</button>
                     </form>
 
                 </div>
