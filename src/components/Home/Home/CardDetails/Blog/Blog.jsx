@@ -7,7 +7,7 @@ const Blog = () => {
     const [blogs, setBlogs] = useState([]);
 
     useEffect(() => {
-        fetch('/public/blog.json') // Update with the correct path
+        fetch('http://localhost:5000/blog') // Update with the correct path
             .then(response => response.json())
             .then(data => setBlogs(data))
             .catch(error => console.error("Error fetching blog data:", error));
