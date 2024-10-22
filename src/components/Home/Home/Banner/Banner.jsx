@@ -15,7 +15,7 @@ const Banner = () => {
                 }}
                 >
                     <div className=" justify-end flex">
-                        <Link to="/login" className="border-red-600 font-semibold border-2 text-red-500 hover:bg-red-600 hover:text-white duration-500 px-3 py-2 m-4 rounded-md">Login</Link>
+                        <Link to="/login" className="border-red-600 font-semibold border-2 text-red-500 hover:bg-red-600 hover:text-white duration-500 px-3 py-2 m-4 rounded-md flex items-center gap-1">Login</Link>
                     </div>
                 </div>
                 <div
