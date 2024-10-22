@@ -12,7 +12,11 @@ const Banner = () => {
                     "url('https://images.unsplash.com/photo-1510218830377-2e994ea9087d?q=80&w=1616&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
                     height: '300px',
                 }}
-                ></div>
+                >
+                    <div className=" justify-end flex">
+                        <button className="border-red-600 font-semibold border-2 text-red-500 hover:bg-red-600 hover:text-white duration-500 px-3 py-2 m-4 rounded-md">Login</button>
+                    </div>
+                </div>
                 <div
                 className="card mx-4 mx-md-5 shadow-5-strong"
                 style={{
