@@ -1,5 +1,6 @@
 import { FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa";
 import profile from "../../../../assets/profile.jpg";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
     return (
@@ -14,7 +15,7 @@ const Banner = () => {
                 }}
                 >
                     <div className=" justify-end flex">
-                        <button className="border-red-600 font-semibold border-2 text-red-500 hover:bg-red-600 hover:text-white duration-500 px-3 py-2 m-4 rounded-md">Login</button>
+                        <Link to="/login" className="border-red-600 font-semibold border-2 text-red-500 hover:bg-red-600 hover:text-white duration-500 px-3 py-2 m-4 rounded-md">Login</Link>
                     </div>
                 </div>
                 <div
