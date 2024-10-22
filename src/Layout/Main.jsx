@@ -1,9 +1,11 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Footer from "../components/Home/Shared/Footer/Footer";
 
 const Main = () => {
     const [isVisible, setIsVisible] = useState(true);
+    const location = useLocation();
+    const noHeaderFooter = location.pathname.includes('login');
 
     useEffect(() => {
         const timeout = setTimeout(() => {
@@ -18,7 +20,7 @@ const Main = () => {
                 <div className="animate-spin rounded-full h-16 w-16 border-t-2 border-red-500"></div>
                 </div> : <div className="bg-[#24272B]">
                         <Outlet></Outlet>
-                        <Footer></Footer>
+                        {noHeaderFooter || <Footer></Footer>}
                 </div> }
             </div>
     );
