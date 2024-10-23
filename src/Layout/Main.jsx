@@ -5,7 +5,7 @@ import Footer from "../components/Home/Shared/Footer/Footer";
 const Main = () => {
     const [isVisible, setIsVisible] = useState(true);
     const location = useLocation();
-    const noHeaderFooter = location.pathname.includes('login');
+    const noHeaderFooter = location.pathname.includes('login') || location.pathname.includes('signUp');
 
     useEffect(() => {
         const timeout = setTimeout(() => {
