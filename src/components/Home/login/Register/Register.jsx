@@ -1,6 +1,10 @@
+import { useForm } from 'react-hook-form';
 import { Link } from 'react-router-dom';
 
 const Register = () => {
+    const { register, handleSubmit, watch, formState: { errors } } = useForm();
+    const onSubmit = data => console.log(data);
+    
     return (
         <div>
              <section className="bg-gray-50 dark:bg-[#24272B]">
