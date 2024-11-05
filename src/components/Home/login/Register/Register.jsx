@@ -55,7 +55,7 @@ const Register = () => {
                                             required: true,
                                             minLength: 6,
                                             maxLength: 20,
-
+                                            pattern: /(?=(.*[A-Z]))(?=(.*[0-9]))(?=(.*[!@#$%^&*]))(?=(.*[a-z]))/
                                         })}
                                         placeholder="••••••••"
                                         className="bg-gray-50 border border-gray-300 text-gray-900 rounded-lg focus:ring-blue-600 focus:border-blue-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
@@ -63,7 +63,8 @@ const Register = () => {
                                     />
                                      {errors.password ?.type === "required" && <p className='text-red-600'>Password is required</p>}
                                      {errors.password ?.type === "minLength" && <p className='text-red-600'>Password must be 6 characters</p>}
-                                     {errors.password ?.type === "maxLength" && <p className='text-red-600'>Password must be 6 characters</p>}
+                                     {errors.password ?.type === "maxLength" && <p className='text-red-600'>Password must be 20 characters</p>}
+                                     {errors.password ?.type === "pattern" && <p className='text-red-600'>Password must have one uppercase, one lowercase, one number and one special characters</p>}
 
                                 </div>
                                 <input
