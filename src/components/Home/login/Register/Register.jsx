@@ -6,7 +6,14 @@ import { AuthContext } from '../../../../provider/AuthProvider';
 const Register = () => {
     const { register, handleSubmit, formState: { errors } } = useForm();
     const {createUser} = useContext(AuthContext);
-    const onSubmit = data => console.log(data);
+
+
+    const onSubmit = data => 
+        createUser(data.email, data.password)
+        .then(result => {
+            const loggedUser = result.user;
+            console.log(loggedUser);
+    })
 
     return (
         <div>
