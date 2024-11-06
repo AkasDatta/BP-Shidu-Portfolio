@@ -7,7 +7,6 @@ const Register = () => {
     const { register, handleSubmit, formState: { errors } } = useForm();
     const {createUser} = useContext(AuthContext);
 
-
     const onSubmit = data => 
         createUser(data.email, data.password)
         .then(result => {
