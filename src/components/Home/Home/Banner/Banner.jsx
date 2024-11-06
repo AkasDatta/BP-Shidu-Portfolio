@@ -8,10 +8,11 @@ const Banner = () => {
     const {user, logOut} = useContext(AuthContext);
 
     const handleLogOut = () => {
-        logOut();
+        logOut()
         .then(() =>{})
-        .catch(error => console.log(error);)
+        .catch(error => console.log(error))
     }
+
     return (
         <div>
             <section>
@@ -26,7 +27,7 @@ const Banner = () => {
                     <div className="justify-end flex">
                         {
                             user ? <>
-                            
+                            <Link onClick={handleLogOut}className="border-red-600 font-semibold border-2 text-red-500 hover:bg-red-600 hover:text-white duration-500 px-3 py-2 m-4 rounded-md flex items-center gap-1">LogOut</Link>
                             </> : <>
                                 <Link to="/login" className="border-red-600 font-semibold border-2 text-red-500 hover:bg-red-600 hover:text-white duration-500 px-3 py-2 m-4 rounded-md flex items-center gap-1">Login</Link>
                             </>
