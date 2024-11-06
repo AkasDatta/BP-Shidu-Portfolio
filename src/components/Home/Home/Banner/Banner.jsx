@@ -1,11 +1,20 @@
 import { FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa";
 import profile from "../../../../assets/profile.jpg";
 import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { AuthContext } from "../../../../provider/AuthProvider";
 
 const Banner = () => {
+    const {user, logOut} = useContext(AuthContext);
+
+    const handleLogOut = () => {
+        logOut();
+        .then(() =>{})
+        .catch(error => console.log(error);)
+    }
     return (
         <div>
-            <section className="">
+            <section>
                 <div
                 className="p-5 bg-image"
                 style={{
@@ -14,8 +23,14 @@ const Banner = () => {
                     height: '300px',
                 }}
                 >
-                    <div className=" justify-end flex">
-                        <Link to="/login" className="border-red-600 font-semibold border-2 text-red-500 hover:bg-red-600 hover:text-white duration-500 px-3 py-2 m-4 rounded-md flex items-center gap-1">Login</Link>
+                    <div className="justify-end flex">
+                        {
+                            user ? <>
+                            
+                            </> : <>
+                                <Link to="/login" className="border-red-600 font-semibold border-2 text-red-500 hover:bg-red-600 hover:text-white duration-500 px-3 py-2 m-4 rounded-md flex items-center gap-1">Login</Link>
+                            </>
+                        }
                     </div>
                 </div>
                 <div
