@@ -3,6 +3,9 @@ import profile from "../../../../assets/profile.jpg";
 import { Link } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext } from "../../../../provider/AuthProvider";
+import { CiShoppingCart } from "react-icons/ci";
+import { BsFillCartPlusFill } from "react-icons/bs";
+import { FaCartShopping } from "react-icons/fa6";
 
 const Banner = () => {
     const {user, logOut} = useContext(AuthContext);
@@ -25,6 +28,10 @@ const Banner = () => {
                 }}
                 >
                     <div className="justify-end flex">
+                        <div className="flex items-center">
+                            <FaCartShopping className="text-red-600 text-3xl mx-3"/>
+                        </div>
+                        
                         {
                             user ? <>
                             <Link onClick={handleLogOut}className="border-red-600 font-semibold border-2 text-red-500 hover:bg-red-600 hover:text-white duration-500 px-3 py-2 m-4 rounded-md flex items-center gap-1">LogOut</Link>
