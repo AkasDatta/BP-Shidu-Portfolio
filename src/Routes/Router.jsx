@@ -6,6 +6,8 @@ import Home from "../components/Home/Home/Home";
 import BlogDetails from "../components/Home/Home/CardDetails/Blog/BlogDetails";
 import Login from "../components/Home/login/Login/Login";
 import Register from "../components/Home/login/Register/Register";
+import PrivateRoute from "./PrivateRoute";
+import Secret from "../components/Home/Shared/Secret/Secret";
 
 export const router = createBrowserRouter([
     {
@@ -30,7 +32,7 @@ export const router = createBrowserRouter([
         },
         {
           path: 'secret',
-          element: <Secret></Secret>
+          element: <PrivateRoute><Secret></Secret></PrivateRoute>
         }
       ]
     },
