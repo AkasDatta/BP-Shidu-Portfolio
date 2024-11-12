@@ -16,11 +16,7 @@ const Login = () => {
         .then(result => {
             const user = result.user;
             console.log(user);
-            Swal.fire({
-                title: "The Internet?",
-                text: "That thing is still around?",
-                icon: "question"
-              });
+            Swal.fire("User login successfully");
         })
     };
 
