@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
 
 const Login = () => {
-    const {signin} = useContext(AuthContext); 
+    const {signIn} = useContext(AuthContext); 
 
     const handleLogin = event => {
         event.preventDefault();
@@ -12,7 +12,7 @@ const Login = () => {
         const email = form.elements.email.value;
         const password = form.elements.password.value;
         console.log(email, password);
-        signin(email, password)
+        signIn(email, password)
         .then(result => {
             const user = result.user;
             console.log(user);
