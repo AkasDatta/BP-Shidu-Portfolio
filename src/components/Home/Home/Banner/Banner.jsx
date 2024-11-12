@@ -1,14 +1,17 @@
 import { FaFacebook, FaLinkedin, FaYoutube } from "react-icons/fa";
 import profile from "../../../../assets/profile.jpg";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext } from "../../../../provider/AuthProvider";
-import { CiShoppingCart } from "react-icons/ci";
-import { BsFillCartPlusFill } from "react-icons/bs";
 import { FaCartShopping } from "react-icons/fa6";
 
 const Banner = () => {
     const {user, logOut} = useContext(AuthContext);
+
+    const navigate = useNavigate();
+    const location = useLocation();
+
+    const from = location.state?.from?.pathname || "/";
 
     const handleLogOut = () => {
         logOut()
