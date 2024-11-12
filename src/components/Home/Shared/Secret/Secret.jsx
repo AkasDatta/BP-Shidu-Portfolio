@@ -1,8 +1,8 @@
 
 const Secret = () => {
-    return (
-        <div>
-            <h2>Secret Things</h2>
+    return (    
+        <div className="flex justify-center items-center h-screen">
+            <div className="text-white ">Secret Things</div>
         </div>
     );
 };

@@ -26,9 +26,9 @@ const Banner = () => {
                 }}
                 >
                     <div className="justify-end flex">
-                        <div className="flex items-center">
+                        <Link to="/secret" className="flex items-center">
                             <FaCartShopping className="text-red-600 text-3xl mx-3"/>
-                        </div>
+                        </Link>
                         
                         {
                             user ? <>
