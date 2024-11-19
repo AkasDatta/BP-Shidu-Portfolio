@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 import { AuthContext } from '../../../../provider/AuthProvider';
 
 const Register = () => {
-    const { register, handleSubmit, formState: { errors } } = useForm();
-    const {createUser} = useContext(AuthContext);
+    const { register, handleSubmit, reset, formState: { errors } } = useForm();
+    const {createUser, updateUserProfile} = useContext(AuthContext);
 
     const onSubmit = data => 
         createUser(data.email, data.password)
