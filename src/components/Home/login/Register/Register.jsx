@@ -1,12 +1,13 @@
 import { useContext } from 'react';
 import { useForm } from 'react-hook-form';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../../../provider/AuthProvider';
 import Swal from 'sweetalert2';
 
 const Register = () => {
   const { register, handleSubmit, reset, formState: { errors } } = useForm();
   const { createUser, updateUserProfile } = useContext(AuthContext);
+  const navigate = useNavigate();
 
   const onSubmit = async (data) => {
     try {
@@ -24,6 +25,7 @@ const Register = () => {
         showConfirmButton: false,
         timer: 1500,
       });
+      navigate('/');
     } catch (error) {
       console.error("Error creating user:", error);
       // Handle errors appropriately, e.g., display an error message to the user

@@ -26,12 +26,15 @@ const Banner = () => {
                 }}
                 >
                     <div className="justify-end flex">
+
                         <Link to="/secret" className="flex items-center">
                             <FaCartShopping className="text-red-600 text-3xl mx-3"/>
-                        </Link>
+                        </Link> 
+                        <span className="text-red-600 my-6 me-3">|</span>
                         
                         {
                             user ? <>
+                            <span className="text-md my-6 text-gray-200">{user?.displayName}</span>
                             <Link onClick={handleLogOut}className="border-red-600 font-semibold border-2 text-red-500 hover:bg-red-600 hover:text-white duration-500 px-3 py-2 m-4 rounded-md flex items-center gap-1">LogOut</Link>
                             </> : <>
                                 <Link to="/login" className="border-red-600 font-semibold border-2 text-red-500 hover:bg-red-600 hover:text-white duration-500 px-3 py-2 m-4 rounded-md flex items-center gap-1">Login</Link>
