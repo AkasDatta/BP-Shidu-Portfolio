@@ -16,12 +16,12 @@ const Login = () => {
         const form = event.target;
         const email = form.elements.email.value;
         const password = form.elements.password.value;
-        console.log(email, password);
-        
+        // console.log(email, password);
+
         signIn(email, password)
         .then(result => {
             const user = result.user;
-            console.log(user);
+            // console.log(user);
             Swal.fire("User login successfully");
         });
         navigate(from, {replace: true });
