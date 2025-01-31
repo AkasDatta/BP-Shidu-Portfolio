@@ -36,9 +36,14 @@ const Work = () => {
                         </div>
                     </a>
             </div>
-            <div>
-                <h2>hh</h2>
-            </div>
+            <div className="w-full max-w-2xl mx-auto">
+    <iframe 
+        className="w-full aspect-video rounded-lg shadow-lg" 
+        src="https://www.youtube.com/embed/IpFX2vq8HKw" 
+        allowfullscreen>
+    </iframe>
+</div>
+
         </div>
     );
 };
