@@ -4,7 +4,7 @@ import network from "../../../../../assets/network.jpg";
 const Work = () => {
     return (
         <div>
-              <div className="mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+              <div className="my-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
                     <a href="https://www.blogger.com/profile/14962074601999675358" className="rounded-2xl bg-[#1a1d20] duration-500 hover:bg-[#121416] p-6 grid grid-cols-1 lg:grid-cols-5 gap-8">
                         <div className="h-56 overflow-hidden rounded-2xl col-span-1 lg:col-span-2">
                             <img
@@ -36,13 +36,18 @@ const Work = () => {
                         </div>
                     </a>
             </div>
-            <div className="w-full max-w-2xl mx-auto">
-    <iframe 
-        className="w-full aspect-video rounded-lg shadow-lg" 
-        src="https://www.youtube.com/embed/IpFX2vq8HKw" 
-        allowfullscreen>
-    </iframe>
-</div>
+            <div className="w-full mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+                <iframe 
+                    className="w-full aspect-video rounded-lg shadow-lg" 
+                    src="https://www.youtube.com/embed/ekr2nIex040?si=kSTjyiwKdXterEKF" 
+                    allowfullscreen>
+                </iframe>
+                <iframe 
+                    className="w-full aspect-video rounded-lg shadow-lg" 
+                    src="https://www.youtube.com/embed/IpFX2vq8HKw" 
+                    allowfullscreen>
+                </iframe>
+            </div>
 
         </div>
     );
